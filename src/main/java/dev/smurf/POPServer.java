@@ -9,7 +9,7 @@ import dev.smurf.states.State;
 import java.util.LinkedList;
 import java.util.List;
 
-public class POPServer {
+public final class POPServer {
 
     private final LinkedList<Result> executedResults = new LinkedList<>();
 
